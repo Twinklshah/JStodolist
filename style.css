@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(58,147,180);
+    background: linear-gradient(90deg, rgba(58,147,180,1) 0%, rgba(29,195,253,0.4095763305322129) 88%, rgba(69,252,222,0.7233018207282913) 100%);
+}
+
+.container{
+    width: 20%;
+    margin: 4rem auto; 
+
+}
+
+
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color: steelblue;
+}
+input{
+     outline: none;
+     border: none;
+     box-sizing: border-box;
+     width: 100%;
+     padding: 0.5rem 1rem;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    padding: 0.5rem 1rem;
+}
+li:nth-child(even){
+    background-color:lightgray;
+}
+li:nth-child(odd){
+    background-color:gray;
+}
